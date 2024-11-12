@@ -1,6 +1,11 @@
 import React from 'react';
 import Column from './Column';
 
+
+
+
+
+
 function Board({ tickets, users, grouping, sortOrder }) {
   const groupedTickets = groupTickets(tickets, grouping, users);
 
