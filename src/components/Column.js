@@ -9,8 +9,8 @@ function Column({ title, tickets }) {
     <div className="column">
       <h2>{title} 
         <div className="plusdot">
-        <img src={addw} alt="" />
-        <img src={threedots} alt="" />
+        <button><img src={addw} alt="" /></button>
+        <button><img src={threedots} alt="" /></button>
         </div>
         </h2>
       
